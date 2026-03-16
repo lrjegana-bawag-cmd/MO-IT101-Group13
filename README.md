@@ -17,6 +17,7 @@ Responsible for the core Java programming, implementing the payroll logic, CSV d
 Smith Gregorio
 
 Served as the Code Reviewer to ensure accuracy and handled the final deployment/upload of the code to GitHub.
+
 [Program Details]
 
 Key Features:
