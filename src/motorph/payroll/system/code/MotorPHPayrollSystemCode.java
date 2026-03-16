@@ -130,9 +130,6 @@ public class MotorPHPayrollSystemCode {
             System.out.println("Total Hours Worked : " + h2); // No rounding
             System.out.println("Gross Salary: " + g2); 
             
-            // make sure that the totalD already compute before print
-            totalD = sss + ph + pi + tax; 
-            
             System.out.println("Each Deductions:");
             System.out.println("    SSS: " + sss); // Indented with 4 spaces
             System.out.println("    PhilHealth: " + ph);
