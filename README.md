@@ -9,9 +9,11 @@ The MotorPH Payroll System is a simple Java-based tool designed to automate the 
 Jennifer T. Egana-Bawag
 
 Responsible for creating the repository and consistently updating the Project Plan to ensure the team stays on track.
+
 Catherine Castro
 
 Responsible for the core Java programming, implementing the payroll logic, CSV data parsing, and deduction formulas.
+
 Smith Gregorio
 
 Served as the Code Reviewer to ensure accuracy and handled the final deployment/upload of the code to GitHub.
