@@ -1,0 +1,43 @@
+MotorPH Payroll System - Detailed Progress Log
+
+March 04, 2026 
+Assigned to: Catherine Castro
+
+Activity: Integrated CSV database files (Employee Data and Attendance Record) into the NetBeans project folder.
+
+March 08, 2026
+
+Activity: Developed initial payroll system logic and conducted a team review of the code.
+
+Activity: Jennifer T. Egana-Bawag officially created the GitHub Repository for the group.
+
+March 11, 2026 
+Group 13: Collaboration
+
+Activity: Uploaded the source code from the IDE to the GitHub repository.
+
+Activity: Performed initial system testing to ensure basic functionality and file reading were working as intended.
+
+March 15, 2026
+
+Activity: Consultation with the IT Coach. The team was instructed to fix branch-related issues (Issue #1) before receiving thorough feedback on the code logic.
+
+March 16, 2026
+Assigned to: Catherine Castro
+Assigned to: Smith Gregorio
+
+Activity: Received comprehensive feedback from the IT Coach and addressed the following technical issues:
+
+Issue #2: Variable Naming - Renamed shortcut variables like h1, g1, and ph into descriptive names such as firstCutoffHours, firstCutoffGross, and philHealth to make the code easier for the team to read.
+
+Issue #4: Silent Error Handling - Replaced empty catch blocks with System.out.println messages to ensure that file errors or bugs are properly reported during runtime.
+
+Issue #5: Hardcoded Range - Updated displayPayrollForMonths() to accept Year and Month inputs from the user, allowing the program to process any date instead of just June-Dec 2024.
+
+Issue #8: Indentation - Fixed the alignment in getHours(). The entire method body was shifted to the right to match the standard 8-space/2-tab indent of the rest of the class.
+
+Issue #9: Duplicate File Paths - Defined the CSV paths as private static final String constants at the top of the class to avoid repeating the long file strings in multiple methods.
+
+Issue #10: Naming Mismatch - Changed the folder reference from lowercase resources to the correct capital Resources to prevent "File Not Found" errors on case-sensitive systems.
+
+Issue #12: Monitoring Evidence - Created the docs/monitoring/ folder and this log to provide structured evidence of our dated progress and bug fixes.
