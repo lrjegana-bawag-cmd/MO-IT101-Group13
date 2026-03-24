@@ -41,6 +41,7 @@ Calculates statutory deductions (SSS, PhilHealth, and Pag-IBIG).
 Computes Withholding Tax using standard tax brackets.
 
 Payslip Generation: Displays a clear breakdown of earnings and deductions for two cut-offs per month, showing the final Net Salary.
+
 [Project Plan Link]
 
 https://docs.google.com/spreadsheets/d/1OE-tjR3Vai38DAVIfPA3zwBzqeFtq6temDUgEKHwnaw/edit?usp=sharing
