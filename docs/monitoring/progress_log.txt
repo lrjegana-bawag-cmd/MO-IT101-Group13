@@ -52,20 +52,24 @@ Activity: Final Code Polish and Documentation based on IT Coach Aldwin’s feedb
 
 Code Reading and Readability (Inline Documentation)
 
- * Updated inline comments to explain the "Why" behind the logic. Added documentation for the Progressive Tax Schedule based on MotorPH Mandated Government Deductions.
+*  Updated inline comments to explain the "Why" behind the logic. Added documentation for the Progressive Tax Schedule based on MotorPH Mandated Government Deductions.
 
 CSV Structure and Data Mapping
 
- * Included a Data Mapping Guide in the source code to clearly identify which CSV columns (e.g., Index 0 for ID, Index 18 for Hourly Rate) are being accessed by the system.
+*  Included a Data Mapping Guide in the source code to clearly identify which CSV columns (e.g., Index 0 for ID, Index 18 for Hourly Rate) are being accessed by the system.
 
 Algorithm and Logic (Dynamic Validation)
 
-* Converted the year validation from a fixed hardcoded value to a dynamic check using Year.now().getValue(). This ensures the system remains functional for any current year without manual code updates.
+*  Converted the year validation from a fixed hardcoded value to a dynamic check using Year.now().getValue(). This ensures the system remains functional for any current year without manual code updates.
 
 Correctness and Performance (Precision)
 
- * Performed a Precision Audit on all mathematical operations. Verified that the system maintains full decimal accuracy for SSS, PhilHealth, Pag-IBIG, and Tax to prevent any "centavo" discrepancies in the net pay.
+ *  Performed a Precision Audit on all mathematical operations. Verified that the system maintains full decimal accuracy for SSS, PhilHealth, Pag-IBIG, and Tax to prevent any "centavo" discrepancies in the net pay.
 
 SSS Table Management
 
- * Added a Summary Header to the SSS 2D array explaining the technical choice of using a lookup table for optimized calculation speed and reliability.
+ *  Added a Summary Header to the SSS 2D array explaining the technical choice of using a lookup table for optimized calculation speed and reliability.
+
+March 25, 2026
+
+Repository Audit: Reorganized GitHub directory structure (src/Resources/ and src/motorph/payroll/system/code/) to ensure full compatibility with Java package requirements and case-sensitive file paths.
