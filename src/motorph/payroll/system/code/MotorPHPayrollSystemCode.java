@@ -95,7 +95,7 @@ public class MotorPHPayrollSystemCode {
 
     public static void displayPayrollReport(String[] empData, int year, int startMonth, int endMonth) {
         /* * DATA MAPPING (From MotorPH CSV Schema):
-         * [0] ID, [1] First Name, [2] Last Name, [3] Birthday, [18] Hourly Rate.
+         * [0] ID, [2] First Name, [1] Last Name, [3] Birthday, [18] Hourly Rate.
          * We strip quotes to ensure numeric parsing doesn't fail on Excel-exported data.
          */
         String id = empData[0].replace("\"", "").trim();
